@@ -3,8 +3,7 @@ summ = 0
 i = 0
 while i < len(user_number) :
     if user_number[i] != '.':
-        k = int(user_number[i])
-        summ += k
+        summ += int(user_number[i])
         i += 1
     else :
         i+=1
